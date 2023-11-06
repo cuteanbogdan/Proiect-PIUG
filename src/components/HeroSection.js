@@ -4,6 +4,7 @@ import { useDarkMode } from "../contexts/DarkModeContext";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
+  // eslint-disable-next-line
   const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   return (
